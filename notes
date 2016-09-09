@@ -1,0 +1,43 @@
+att,
+
+Wow, good luck.  It took me 4 hours on Sunday to finish it up (after 4 hours
+or so of trying to get it to work last week).  Ada is finniky (sp?) about
+message pasing (remember about the blocking send).
+
+OK, first off, you need to create three topology data files (two mesh and
+one star).  You'll perform two runs for each topology.  Read in one an
+instantiate the processes.  Each process has a routing table to direct
+traffic.  The user specifies the number of iterations each process attempts
+to enter the CS and a random seed.  From there, you need to implement the
+algorithm as specified in the book (if you can call it that), with message
+passing.  A process displays information upon receipt of a message in the
+following format:
+
+<Process ID> <Message Rec'd> <From Which Process> <To What Process>
+
+For example, if I have a star topology with Process 0 as the center
+(connected to all other processes), then if Process 3 wants to send a REQ to
+Process 1--followed by an ACK sent from Process 1 to 3--the following would
+be displayed:
+
+0 REQ 3 1
+   1 REQ 3 1
+0 ACK 1 3
+           3 ACK 1 3
+
+Processes should output messages such as REQ, ACK, REL, DED, including IN
+CS, OUT CS, SKIP CS (a random number less than 0.5 means skip CS), and DEAD.
+Remember that although a process may be ready to die, it may need to stay
+alive in order to transfer messages to other processes.  This is why I
+implemented a DED message which alerts other processes that a process is
+dead.  Then, a process can only die when all other processes are dead.  The
+only catch is that although Process 0 (for example) may have received a DED
+message from all processes, the last dead process may still be trying to
+broadcast such message to the remaining processes through Process 0.
+Therefore, even though all processes are deemed dead by Process 0, it may
+still need to stay alive for a while until the last remaining dying process
+has broadcasted this to all other processes through it.  This was very
+interesting (and challenging) to implement.
+
+Hope this help.
+	

@@ -1,0 +1,206 @@
+V "GNAT Lib v3.15"
+M P W=b
+P
+R nnvvnvvvnnvnnvvvvvvvvvvnvnnnnvnvvvnvnvnvnnnnvnnnvvnn
+
+U main%b		main.adb		31f23f34 NE SU KU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20020319081957 a0108083
+D a-calend.ads		20021024164812 83015fd2
+D a-caldel.ads		20021024164812 d5f7cf82
+D a-charac.ads		20020319081945 a61fb5a9
+D a-chlat1.ads		20020319081945 06a18501
+D a-except.ads		20021024164816 a9cbab76
+D a-finali.ads		20021024164817 d4be2e87
+D a-filico.ads		20021024164816 83058640
+D a-inteio.ads		20020319081945 58c81565
+D a-ioexce.ads		20020319081945 d52e128a
+D a-numeri.ads		20020319081945 24750733
+D a-nuflra.ads		20021024164819 847103fa
+D a-stream.ads		20021024164822 dbe6acb4
+D a-string.ads		20020319081945 6440c304
+D a-strmap.ads		20021024164823 e6fc9a3a
+D a-strunb.ads		20021024164823 d5fc5eb1
+D a-tags.ads		20021024164827 bc792b69
+D a-textio.ads		20021024164827 98d7a37c
+D a-tienau.ads		20021024164828 a07287f1
+D a-tienio.ads		20021024164828 18c7435c
+D a-tienio.adb		20021024164828 69ccfdaa
+D a-tiinio.ads		20021024164830 d2c49634
+D interfac.ads		20020319082053 6e859da6
+D i-c.ads		20020319082052 fef7fe28
+D i-cstrea.ads		20021024164902 12f12cf1
+D main.adb		20041117132506 472148b0
+D system.ads		20021024164739 2f3adf03
+D s-exctab.ads		20021024164922 52f2ffc0
+D s-ficobl.ads		20021024164926 14416104
+D s-finimp.ads		20021024164926 ef65ab1e
+D s-finroo.ads		20021024164926 7e5e077b
+D s-imgenu.ads		20021024164928 20631dce
+D s-imgint.ads		20021024164928 f1ba8463
+D s-osinte.ads		20030515220608 f99b8fcf
+D s-parame.ads		20021024164936 315d7d16
+D s-secsta.ads		20021024164937 e384df23
+D s-soflin.ads		20021024164937 14059e84
+D s-stache.ads		20021024164938 8fc58eaa
+D s-stalib.ads		20021024164938 76713122
+D s-stoele.ads		20020319082132 c6bef0ad
+D s-stratt.ads		20021024164938 9fdf8f81
+D s-tasinf.ads		20021024164938 bbbd2b69
+D s-taspri.ads		20021024164739 26c755ad
+D s-taskin.ads		20021024164938 36912069
+D s-taprob.ads		20021024164938 0962e958
+D s-tpoben.ads		20021024164939 4dc7204d
+D s-tasren.ads		20021024164939 35499295
+D s-tassta.ads		20021024164939 2aa92874
+D s-unstyp.ads		20021024164939 05ad3732
+D s-valenu.ads		20021024164940 87644494
+D unchconv.ads		20020319082153 1b7a14c5
+D unchdeal.ads		20020319082153 8ac9d15e
+X 1 ada.ads
+17K9*Ada 20e8 26|22r6 22r77 23r6 23r53 24r6 24r37 25r6 26r6 26r77 27r6 27r45
+. 32r22 243r9
+X 2 a-calend.ads
+39K13*Calendar 118e17 26|25r10
+X 9 a-inteio.ads
+19K13*Integer_Text_IO 26|23r10 23r57
+X 11 a-numeri.ads
+18K13*Numerics 29e17 26|24r10 24r41 32r26 243r13
+X 12 a-nuflra.ads
+52K22*Float_Random 100e30 26|24r19 24r50 32r35 243r22
+56R9*Generator 26|32r48
+60V13*Random 26|285r36
+63U14*Reset 26|243r35
+X 14 a-string.ads
+17K13*Strings 31e16 26|26r10 26r81 27r10 27r49
+X 16 a-strunb.ads
+42K21*Unbounded 382e26 26|27r18 27r57
+45R9*Unbounded_String 26|99r35
+47R4*Null_Unbounded_String{45R9} 26|99r55
+X 18 a-textio.ads
+50K13*Text_IO 441e16 26|22r10 22r81
+53P9*File_Type 26|212r35
+54n23*In_File{54E9} 26|249r38
+94U14*Open 26|249r9
+95P7 File{53P9} 26|249r15
+96e7 Mode{54E9} 26|249r30
+97s7 Name{string} 26|249r47
+100U14*Close 26|301r3
+168U14*New_Line 26|278r49 292r31
+173V13*End_Of_Line{boolean} 26|260r27
+185V13*End_Of_File{boolean} 26|253r19
+242U14*Get 26|247r9
+244U14*Put 26|240r9 246r9 278r9 284r17 305r7 307r7 309r7
+244s19 Item{string} 26|305r11 307r11 309r11
+259U14*Put_Line 26|238r9
+288X4*Status_Error 26|306r9
+290X4*Name_Error 26|304r9
+291X4*Use_Error 26|308r9
+X 20 a-tienio.ads
+49k21*Enumeration_IO 78e31 26|38r32 49r32
+X 22 a-tiinio.ads
+53U14*Get 26|258r17[26|19] 262r25[26|19]
+58U14*Get 26|241r9[26|19]
+68U14*Put 26|278r35[26|19] 292r17[26|19]
+X 26 main.adb
+29U11*Main 315l19 315t23
+32R9 randomPool{12|56R9} 243r41 285r43
+35b9 go{boolean} 274m9
+35b13 stop{boolean} 299m9
+37E14 MESG 37e37 38r47 116r15
+37n23 REQ{37E14}
+37n28 ACK{37E14}
+37n33 REL{37E14}
+38K17 MESG_IO 38r58
+41N9 MAX_NEIGHBORS 56r41 60r31 102r44
+45N9 MAX_TASKS 90r28 233r53
+48E14 type_message 48e45 49r47 68r39 85r26 173r32
+48n31 REQ{48E14}
+48n36 ACK{48E14}
+48n41 REL{48E14} 85r42
+49K17 ENUM_IO 49r66
+52T14 RX_TASK 53r31 269r42
+53P14 RX_Ptr(64T11) 60r49 102r62
+56A14 passableArray 65r60 93r21 154r30 223r35
+60a9 taskArray 269m17 270r17 294r17
+64T11 RX_TASK 78l5 78e12 81b11 205l5 205t12
+65Y15 Start 152b8 166l5 166t10 270r35
+65i22 id_in{integer} 164r15
+65a42 Neighbors_in{56A14} 161r33
+68Y15 FWD 173b8 176l5 176t8
+68i19 dest{integer}
+68e34 msg{48E14}
+68i53 k{integer}
+68i65 j{integer}
+71Y9 kill 168b8 171l5 171t9 294r35
+74Y15 REQUEST 180b8 183l5 183t12
+75Y15 ACKNOWLEDGE 185b8 188l5 188t16
+76Y15 RELEASE 190b8 193l5 193t12
+83R8 message 88e19 90r42 108r18
+85e17 mestype{48E14}
+86i17 clock{integer}
+87i17 id{integer}
+90a9 queue
+93a9 Neighbors{56A14} 159r18 159r37 161m17
+96i9 id{integer} 164m9
+99R3 outp{16|45R9}
+102a9 friends
+105i9 osn{integer}
+105i14 temp_osn{integer}
+108r4 temp1{83R8}
+108r11 temp2{83R8}
+109b4 for_all{boolean}
+110b4 dead{boolean}
+113T11 TX_TASK 122l5 122e12 124r31 127b11 132l5 132t12
+115i9 dest{integer}
+116e9 mess{37E14}
+117i9 clock{integer}
+118i9 i{integer}
+124P14 TX_PTR(113T11) 125r16
+125p9 myTX{124P14}
+134T11 AL_TASK 136l8 136e15 139b11 142l5 142t12 144r23 198r21
+144P6 AL_Ptr(134T11) 145r8
+145p1 aPtr{144P6} 198m9
+153i9 id_in{integer}
+154a9 Neighbors_in{56A14}
+159i13 I{integer} 161r27 161r46
+173i12 dest{integer}
+173e27 msg{48E14}
+173i46 k{integer}
+173i58 j{integer}
+207U11 Driver 313l5 313t11 315r7
+209i9 seedUser{integer} 241m13 243r52
+212P9 infile{18|53P9} 249m22 253r31 258r21 260r39 262r29 301m9
+215a9 filename{string} 247m13 249r55
+220i9 taskId{integer} 258m29 269r27 270r27 270r41 278r40 281r33 285r60 289r50
+223a9 neighbors{56A14} 262m37 270r49
+226i9 neighborCount{integer} 255m17 262r47 263m25 263r42
+230i9 toKill{integer} 285m17 287r29 289m25 289r35 292r22 294r27 295r22
+233a9 dead 287r24 295m17
+281i13 kill_index{integer}
+

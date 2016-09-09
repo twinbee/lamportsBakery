@@ -1,0 +1,212 @@
+V "GNAT Lib v3.15"
+M P W=b
+P
+R nnvvnnvvnnvnnvvvvvvvvvvnvnnnnvnvvvnvnvnvnnnnvnnnvvnn
+
+U zo%b			zo.adb			36940a3a NE SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20020319081957 a0108083
+D a-calend.ads		20021024164812 83015fd2
+D a-caldel.ads		20021024164812 d5f7cf82
+D a-charac.ads		20020319081945 a61fb5a9
+D a-chlat1.ads		20020319081945 06a18501
+D a-except.ads		20021024164816 a9cbab76
+D a-finali.ads		20021024164817 d4be2e87
+D a-filico.ads		20021024164816 83058640
+D a-ioexce.ads		20020319081945 d52e128a
+D a-numeri.ads		20020319081945 24750733
+D a-nuflra.ads		20021024164819 847103fa
+D a-stream.ads		20021024164822 dbe6acb4
+D a-string.ads		20020319081945 6440c304
+D a-strmap.ads		20021024164823 e6fc9a3a
+D a-strunb.ads		20021024164823 d5fc5eb1
+D a-tags.ads		20021024164827 bc792b69
+D a-textio.ads		20021024164827 98d7a37c
+D a-tienau.ads		20021024164828 a07287f1
+D a-tienio.ads		20021024164828 18c7435c
+D a-tienio.adb		20021024164828 69ccfdaa
+D a-tiinau.ads		20021024164830 b66fa990
+D a-tiinio.ads		20021024164830 d2c49634
+D a-tiinio.adb		20021024164830 2c7ab314
+D interfac.ads		20020319082053 6e859da6
+D i-c.ads		20020319082052 fef7fe28
+D i-cstrea.ads		20021024164902 12f12cf1
+D system.ads		20021024164739 2f3adf03
+D s-exctab.ads		20021024164922 52f2ffc0
+D s-ficobl.ads		20021024164926 14416104
+D s-finimp.ads		20021024164926 ef65ab1e
+D s-finroo.ads		20021024164926 7e5e077b
+D s-imgenu.ads		20021024164928 20631dce
+D s-imgint.ads		20021024164928 f1ba8463
+D s-osinte.ads		20030515220608 f99b8fcf
+D s-parame.ads		20021024164936 315d7d16
+D s-secsta.ads		20021024164937 e384df23
+D s-soflin.ads		20021024164937 14059e84
+D s-stache.ads		20021024164938 8fc58eaa
+D s-stalib.ads		20021024164938 76713122
+D s-stoele.ads		20020319082132 c6bef0ad
+D s-stratt.ads		20021024164938 9fdf8f81
+D s-tasinf.ads		20021024164938 bbbd2b69
+D s-taspri.ads		20021024164739 26c755ad
+D s-taskin.ads		20021024164938 36912069
+D s-taprob.ads		20021024164938 0962e958
+D s-tpoben.ads		20021024164939 4dc7204d
+D s-tasren.ads		20021024164939 35499295
+D s-tassta.ads		20021024164939 2aa92874
+D s-unstyp.ads		20021024164939 05ad3732
+D s-valenu.ads		20021024164940 87644494
+D text_io.ads		20020319082153 2b576907
+D unchconv.ads		20020319082153 1b7a14c5
+D unchdeal.ads		20020319082153 8ac9d15e
+D zo.adb		20041117032135 4c4e3e76
+X 1 ada.ads
+17K9*Ada 20e8 54|5r6 5r37 8r6 8r33
+X 10 a-numeri.ads
+18K13*Numerics 29e17 54|5r10 5r41
+X 11 a-nuflra.ads
+52K22*Float_Random 100e30 54|5r19 5r50
+56R9*Generator 54|20r4
+60V13*Random 54|126r33 295r36
+63U14*Reset 54|268r4
+X 13 a-string.ads
+17K13*Strings 31e16 54|8r10 8r37
+X 15 a-strunb.ads
+42K21*Unbounded 382e26 54|8r18 8r45
+45R9*Unbounded_String 54|59r8
+47R4*Null_Unbounded_String{45R9} 54|59r28
+62V13*To_String{string} 54|124r16 130r21 154r21 175r25 197r25 203r17 217r21
+78V13*"&"{45R9} 54|122r42 122r62 128r42 128r62 152r42 152r61 152r70 153r26
+. 173r44 173r62 174r1 174r26 174r47 174r56 195r44 195r63 195r72 196r25 202r40
+. 202r58 215r38 215r56
+347V13*"*"{45R9} 54|122r35 128r35 152r35 173r39 195r39 202r35 215r33
+X 17 a-textio.ads
+53P9*File_Type 54|236r14
+54n23*In_File 54|260r22
+94U14*Open 54|260r4
+100U14*Close 54|311r4
+168U14*New_Line 54|124r32 302r31
+170U14*Skip_Line 54|266r4 284r8
+173V13*End_Of_Line{boolean} 54|278r19
+244U14*Put 54|124r12 294r17
+259U14*Put_Line 54|130r12 154r12 175r16 197r16 203r8 217r12
+X 19 a-tienio.ads
+49k21*Enumeration_IO 78e31 54|18r23
+X 22 a-tiinio.ads
+48k21*Integer_IO 87e27 54|16r23
+53U14 Get 54|264r4[16] 279r16[16] 280r12[16]
+68U14 Put 54|302r17[16]
+X 51 text_io.ads
+20K9*Text_IO=20:29 54|2r6 2r19
+X 54 zo.adb
+11U11*zo 313l5 313t7
+13E6 type_message 13e37 18r38 37r33 48r17 53r44 153r1 171r38 174r2 196r1
+13n23 req{13E6} 89r46 93r22 185r25 186r29 191r40
+13n28 ack{13E6} 187r46 190r28 192r33
+13n33 rel{13E6} 48r33 136r46 140r22 188r29 189r29 211r46
+16K9 INT_IO 16r48
+18K9 MSG_IO 18r57
+20R1 G{11|56R9} 126r40 268r10 295r43
+23i1 seed{integer} 262m4 268r13
+25T6 receiver 28r20 274r30
+28P6 rec(35T11) 30r41 232r28
+30A6 rec_array_type 36r30 57r13 163r35 234r15
+32b1 all_systems_go{boolean} 82r23 289m4
+32b17 all_dead{boolean} 223r18 309m4
+35T11 receiver 39l5 39e13 43b11 225l6 225t14
+35i20 id{integer} 88r24 89r64 93r14 93r40 101r28 102r30 102r59 103r18 122r31
+. 122r58 128r31 128r58 135r24 136r64 140r14 140r40 152r32 172r23 173r36 173r59
+. 187r56 195r36 195r59 202r32 202r55 210r24 211r64 215r31 215r53
+35i33 n{integer} 67r19 79r30 87r24 100r28 122r25 128r25 134r24 152r26 173r30
+. 195r30 202r26 209r24 215r25
+36Y10 start 163b15 167l12 167t17 286r21
+36a16 friend_array{30A6} 165r23
+37Y10 RX 151r26 171b14 199l12 199t14
+37i13 dest{integer} 172r15 174r42 176r39
+37e28 msg{13E6} 174r21 176r45 185r19 188r23 190r22 196r20
+37i47 k{integer} 176r50 179r25 180r27 186r34 189r34 192r38
+37i59 j{integer} 174r71 176r53 186r22 186r37 187r43 189r22 189r37 191r26
+. 192r26 192r41 196r41
+38Y10 kill 201b15 219l12 219t16 304r35
+45R9 message 46c9 67r25 69r18
+46R9 message 51e14
+48e8 mestype{13E6} 191r29
+49i8 clock{integer} 102r34 102r47 102r63 103r6
+50i8 id{integer} 80r25 103r22 103r32
+53T14 transmit 55l8 55e16 63r22 89r34 136r34 149b14 155l8 155t16 176r30 187r34
+. 211r34
+53i23 dest{integer} 151r20 151r29 153r42
+53e38 mess{13E6} 151r35 153r20
+53i58 clock{integer} 151r41
+54i10 i{integer} 151r48 152r58
+57a4 friends{30A6} 151r12 165m12
+59R4 st{15|45R9} 122m12 124r26 128m12 130r31 152m12 154r31 173m16 175r35
+. 195m16 197r35 202m12 203r27 215m12 217r31
+63P9 TX(53T14) 64r12
+64p4 tsk_TX{63P9} 89m20 136m20 176m16 187m20 211m20
+66i4 osn{integer} 95m12 95r19 96r27 133r27 141m12 141r19 142r27 179r19 180m20
+. 183m16 183r23 187r51 208r27
+66i9 local_clock{integer} 89r51 93r27 96m12 133m12 136r51 140r27 142m12 208m12
+. 211r51
+67a4 q 80m16 93m12 102r28 102r42 102r57 103r1 103r16 103r27 140m12 186m20
+. 189m20 191r24 192m24
+69r4 temp1{46R9}
+69r11 temp2{46R9}
+71b4 for_all{boolean} 106m28 110r32 111m16
+72b4 dead{boolean} 114r22 144r22 205m12
+74t9 algorithm 75b14 147l8 147t17
+79i16 index{integer} 80r18 80r31
+87i16 I{integer} 88r19 89r43
+98l12 wait 110r21 112l21 112e25
+100i20 j{integer} 101r23 102r44 103r3 103r29
+134i16 I{integer} 135r19 136r43
+163a21 friend_array{30A6}
+171i18 dest{integer}
+171e33 msg{13E6}
+171i52 k{integer}
+171i64 j{integer}
+209i16 I{integer} 210r19 211r43
+227E6 FILE_MODE 227e38
+227n20 IN_FILE{227E6}
+227n29 OUT_FILE{227E6}
+230i1 p_count{integer} 264m21 270r9 291r33 295r51 299r52
+232a1 pro_array 274m8 281r39 286r8 304r17
+234a1 friend_array{30A6} 281m16 286r27
+236P1 friend_file{17|53P9} 260m9 264r8 266r14 278r31 279r20 280r16 284r18
+. 311m10
+239i1 n{integer} 270m4 273r20 274r44 277r18
+241i1 index{integer} 279m33 281r29
+241i8 victim{integer}
+241i16 buddy{integer} 280m29 281r49
+243i1 clock{integer}
+245i9 toKill{integer} 295m17 297r29 299m25 299r36 302r22 304r27 305r22
+248a9 dead 297r24 305m17
+273i8 pid{integer} 274r18 274r39
+277i8 I{integer} 286r18
+291i13 kill_index{integer}
+
